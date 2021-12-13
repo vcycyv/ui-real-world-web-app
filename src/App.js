@@ -35,7 +35,7 @@ let PrivateRoutes = () => {
             <Sidebar />
             <Layout className="site-layout">
                 <Header className="ant-layout-sider-dark" style={{ padding: 0 }} >
-                    <h1 style={{ textAlign: 'center', color: 'white', fontFamily: 'open sans', fontSize: '32px', fontWeight: 800 }}>BI Flow</h1>
+                    <h1 style={{ textAlign: 'center', color: 'white', fontFamily: 'open sans', fontSize: '32px', fontWeight: 800 }}>Book Shop</h1>
                 </Header>
                 <Content>
                     <PrivateRoute exact path="/book" component={BookPage} />
