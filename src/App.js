@@ -17,12 +17,13 @@ const { Header, Content } = Layout;
 let App = () => {
     return (
         <Router history={history} >
+            <Redirect strict from="/" to="/book" />
             <Switch>
                 <Route exact path="/login" component={LoginPage} />
                 <PrivateRoutes />
-                <Route exact path="/">
+                {/* <Route exact path="/">
                     <Redirect to="/login" />
-                </Route>
+                </Route> */}
             </Switch>
         </Router>
     )

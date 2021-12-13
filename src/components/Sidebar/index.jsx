@@ -17,12 +17,13 @@ const Sidebar = () => {
         setCollapsed(collapsed);
     };
 
+
     return (
         <Sider collapsible collapsed={collapsed} onCollapse={onCollapse}>
             <div className="logo" />
-            <Menu theme="dark" defaultOpenKeys={['book']} mode="inline" defaultSelectedKeys={["/book"]}>
-                <Menu.SubMenu key="book" icon={<AiOutlineTable />} title="Books">
-                    <Menu.Item key="/book" >
+            <Menu theme="dark" defaultOpenKeys={['books']} mode="inline" defaultSelectedKeys={['book']} >
+                <Menu.SubMenu key="books" icon={<AiOutlineTable />} title="Books">
+                    <Menu.Item>
                         <Link to='/book'>
                             books
                         </Link>
