@@ -9,3 +9,5 @@
 使用了react + redux。 后端使用golang gin + gorm。 后端设计理念在golang项目的readme里。
 
 前端加后端包括基于ldap的登录（ldap的配置在这里演示[https://www.zhihu.com/zvideo/1393205149985341440](https://www.zhihu.com/zvideo/1393205149985341440)）， 启动数据库的docker文件， 增删改查的基本功能。前端和后端都可以很容易地客户化， 你可以基于它做二次开发，大大节省搭建框架的时间。
+
+![image](https://github.com/vcycyv/ui-real-world-web-app/blob/master/img/demo.png)
